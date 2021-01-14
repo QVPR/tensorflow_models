@@ -87,7 +87,7 @@ def match_images_delf(features_1_path, features_2_path):
                               max_trials=1000)
 
   inlier_count = sum(inliers)
-  print(f'Found {inlier_count} inliers')
+  #print(f'Found {inlier_count} inliers')
 
   return inlier_count
 
